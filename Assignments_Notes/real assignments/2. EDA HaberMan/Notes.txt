@@ -1,0 +1,5 @@
+Notes.txt
+
+need to find relation between survival status & rest
+
+how many years of people had been survived

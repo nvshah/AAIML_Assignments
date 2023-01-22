@@ -1,0 +1,19 @@
+Notes
+
+-> We have preprocessed files
+-> Pre-Featuriezed Data is stored in HDF file format (Hierarchical Data Format)
+
+Look Files in follow order
+
+1. FB_EDA
+2. FB_featurization
+3. FB_Models
+
+
+* MF can be used to arrive to new data & new features
+
+
+* featurization performed can be stored in hdf file format (ie Hierarchical Format)
+
+
+* Test Data may containes some new Persons which may not be seen in Train Data (Graph)

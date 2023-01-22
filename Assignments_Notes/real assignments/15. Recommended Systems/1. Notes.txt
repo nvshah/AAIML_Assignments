@@ -1,0 +1,34 @@
+1. Notes
+
+* SGD Algo
+
+Flow
+
+Bipartite => Adj-Matrix => T-SVD
+
+* Purpose of SVD (Singular Value Decomposition)
+  -------
+  Normally We have 2 Matrix
+  1) User Matrix (n*d1)  // d1 dimen is large for n users
+  2) Movie Matrix (m*d2)  // d2 dimen is large for m movies
+
+  SVD basically does 2 things :
+  a. reduce & helps us to do Feature Engineering/Embedding for Users & Movies
+     S.T. we can get lesser dimen than d1 & d2 (ie let say k)
+
+  b. Retains relation between User & Movies (at it best)
+     |
+     because SVD is just Factorization of Matrix
+      So Let consider 6 = 3 * 2
+                        \
+                        Here Though we get 3 & 2 but reln is maintained by *
+
+      The same way SVD helps us to find better Feature Embedding whilst retaining the
+      info at best
+
+NOTE: Reln between User & Movie here is represented by Bipartite-Graph -> Hence Adjacency Matrix
+
+
+---------------
+
+Predicted := 

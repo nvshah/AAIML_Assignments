@@ -1,0 +1,11 @@
+GBDT
+
+* Response Coding
+
+* Code (XGBoost)
+  ----
+  XGBoost is better impl of GBDT than what is available via sklearn.ensemble
+
+  [XgBoost & Cross Validation]
+  https://www.mikulskibartosz.name/xgboost-hyperparameter-tuning-in-python-using-grid-search/
+

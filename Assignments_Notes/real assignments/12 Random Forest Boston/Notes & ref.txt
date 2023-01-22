@@ -1,0 +1,3 @@
+Notes & ref
+
+https://github.com/basilkjose/Applied-ai-course/blob/main/10.Application%20of%20Bootstrap%20samples%20in%20Random%20Forest/bootstrap%20solution.ipynb

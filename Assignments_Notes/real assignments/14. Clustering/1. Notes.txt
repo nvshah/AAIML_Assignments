@@ -1,0 +1,41 @@
+1. Notes
+
+ref
+
+[TSNE/PCA] :- https://builtin.com/data-science/tsne-python
+
+
+* CSV :
+  ---
+  Info about edge between movie & actor
+
+* Bipartite Graph :
+  ----
+  - Given Data Info is in form of BiPartite Graph
+    (i.e Movie <-> Actors)
+
+    So We need to conver this Bipartite Graph Info to Data Matrix Info (ie n*d)
+    So that we can easily run clustering alog
+
+
+* Connected Componente SubGraph
+
+* How to create Features from the Graph ??
+  \
+   -> Steps
+
+   1. Create Bipartite Graph (in coding) as its the first inherent & natural info avail from
+      the dataset
+
+   2. Create Random Walk via help of Connected Sub-Components from BiPartite Graph
+
+   3. Use this each Random Walk/Path as a String
+      &
+      Try to extract the info from it via W2V or similar Text Processing technique
+      (Where you will consider each node in path as a token/word)
+
+* Cost Understanding :
+  ---
+  - 2 Actor are said to be similar if they works in same movie
+  - So when Bipartite Graph is fully connected from Actor to Movie, at that time
+    Cost 2 Func would be maximum
